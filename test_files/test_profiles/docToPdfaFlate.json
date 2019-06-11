@@ -1,0 +1,30 @@
+{
+    "postscript": {
+        "color-images": {
+            "enabled" : "on",
+            "downsampling-dpi" : 150,
+            "compression" : "flate"
+        },
+        "gray-images": {
+            "enabled" : "on",
+            "downsampling-dpi" : 150,
+            "compression" : "jpeg"
+        },
+        "mono-images": {
+            "enabled" : "on",
+            "downsampling-dpi" : 1200
+        },
+        "pdf-output-type" : "PDF"
+    },
+    "office": {
+        "images": {
+            "enabled" : "off",
+            "downsampling-dpi" : 1200,
+            "compression" : "flate"
+        },
+        "tagged-pdf" : "off",
+        "export-form-fields" : "off",
+        "embed-standard-fonts" : "off",
+        "pdf-output-type" : "PDF/A-1"
+    }
+}
